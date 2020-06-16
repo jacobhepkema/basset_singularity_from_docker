@@ -10,6 +10,7 @@ From: lzamparo/basset
 
 # To allow for access 
 %post
+    pip install h5py
     chmod -R 777 /root
     chmod -R 777 /opt
     chmod -R 777 /usr
